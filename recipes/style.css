@@ -1,0 +1,150 @@
+/* style.css */
+
+* {
+    
+    outline: 2px solid red;
+}
+
+.title {
+    color:  red;
+    font-family: 'Film Cryptic';
+    text-align: center;
+    font-size: 80px;
+    border: double 10px red;
+}
+
+.opening {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    background-image: radial-gradient(white, lightgrey, gray);
+    padding: 20px;
+
+}
+
+.opening-fruit {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.quote {
+    font-family:  'Comic Sans MS', 'Comic Sans', 'cursive';
+    position: relative;
+    color: goldenrod;
+    background-color: azure;
+    border: 10px inset sandybrown;
+    box-shadow: 2px 8px 32px;
+    line-height: .75em;
+    margin: 20px auto;
+    padding: 20px 50px;
+    max-width: 600px;
+    white-space: pre-line;
+    font-size: 22px;
+    
+    
+}
+
+.quoter {
+    text-align: center;
+    font-style: italic;
+}
+
+.header-three {
+    font-size: 50px;
+    font-family: 'Film Cryptic', 'Comic Sans MS', 'Comic Sans', 'cursive';
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.body {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.howto, .made-of{
+  list-style: none;
+  padding-left: 0;
+}
+li {
+    margin: 5px;
+    margin-left: 25px;
+}
+a {
+    background-image: radial-gradient(red, yellow, green);
+    padding: 15px;
+    border: dotted 3px black;
+}
+
+.a::before {
+  content: "\2694"; 
+  color: black;  
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.A::before {
+  content: "\2600"; 
+  color: black;  
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.b::before {
+    content: "\1F985";
+    color: black;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+.B::before {
+    content: "\2734";
+    color: black;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+.c::before {
+    content: "\16AB";
+    color: black;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+.C::before {
+    content: "\2744";
+    color: gray;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+.button {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+
+}
+
+
+blockquote::before {
+  content: "“";   /* the big opening quotation mark */
+  font-size: 6rem;
+  color: #b8860b;
+  position: absolute;
+  top: 45px;
+  left: 10px;
+  font-family: "Georgia", serif;
+}
+
+blockquote::after {
+  content: "”";   /* the big closing quotation mark */
+  font-size: 6rem;
+  color: #b8860b;
+  position: absolute;
+  bottom: 45px;
+  right: 30px;
+  font-family: "Georgia", serif;
+}
