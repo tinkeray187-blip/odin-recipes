@@ -1,9 +1,6 @@
 /* style.css */
 
-* {
-    
-    outline: 2px solid red;
-}
+
 
 .title {
     color:  red;
@@ -130,7 +127,7 @@ a {
 
 
 blockquote::before {
-  content: "“";   /* the big opening quotation mark */
+  content: "“";  
   font-size: 6rem;
   color: #b8860b;
   position: absolute;
@@ -140,7 +137,7 @@ blockquote::before {
 }
 
 blockquote::after {
-  content: "”";   /* the big closing quotation mark */
+  content: "”";   
   font-size: 6rem;
   color: #b8860b;
   position: absolute;
